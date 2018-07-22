@@ -1,0 +1,24 @@
+.LoginForm{
+    margin: 50px 500px auto;
+    width: 180px;
+    height: auto;
+    background: white;
+    border-radius:25px;
+    align-items: center;
+    padding: 35px;
+}
+
+#input_credential, #input_passowrd {
+    margin-top: 30px;
+    width: 180px;
+    height: 20px;
+    border-radius:5px;
+}
+
+#btn_login {
+    margin-top: 20px;
+    height: 40px;
+    width: 180px;
+    border-radius:5px;
+    font-size: 8em;
+}
