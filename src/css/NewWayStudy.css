@@ -1,0 +1,13 @@
+.NewWayStudy{
+    text-align: center;
+    background: transparent url("../img/new-way-study-bg.png") no-repeat center center;
+    background-size: cover;
+    padding: 120px 0;
+}
+
+.NewWayStudy p {
+    text-align: center;
+    font-size: 72px;
+    font-family: 幼圆 serif sans-serif;
+    color: #DE5E13;
+}

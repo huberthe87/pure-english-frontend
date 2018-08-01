@@ -1,0 +1,8 @@
+.Section {
+    width: 100%;
+    min-height: 100px;
+    background: no-repeat center bottom;
+    background-size: cover;
+    overflow: hidden;
+    padding: 100px 0;
+}
