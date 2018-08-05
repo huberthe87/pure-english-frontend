@@ -1,0 +1,16 @@
+.GreatClass {
+    margin-top: 100px;
+}
+
+.GreatClass .GreatClass-Thumbnail {
+    text-align: center;
+    border: none;
+    box-shadow: none;
+    font-size: 32px;
+    font-family: '微软雅黑';
+    color: rgb(0,0,0);
+}
+.GreatClass .GreatClass-Image {
+    width: 80%;
+    margin: 0 auto;
+}

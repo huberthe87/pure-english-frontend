@@ -4,9 +4,6 @@
     vertical-align: bottom;
     padding: 50px 0;
 }
-.ReliableCourse div {
-    margin: 8px;
-}
 .ReliableCourse .head-portrait {
     width: 100%;
     height: 100%;
@@ -17,4 +14,7 @@
 }
 .ReliableCourse .ReliableCourse-left .chat {
     padding-top: 20px;
+}
+.ReliableCourse .ReliableCourse-right {
+    margin-top: 40px;
 }

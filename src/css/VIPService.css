@@ -1,0 +1,26 @@
+.VIPService {
+    margin-top: 100px;
+}
+.VIPService .VIPService-Thumbnail {
+    text-align: center;
+    border: none;
+    box-shadow: none;
+    font-size: 32px;
+    font-family: '微软雅黑';
+}
+.VIPService .VIPService-Grid {
+    background: transparent url("../img/vip-service-bg.png") no-repeat center center;
+    background-size: 100% 100%;
+    padding: 150px 0 100px;
+}
+.VIPService .VIPService-Grid .VIPService-SubThumbnail {
+    text-align: center;
+    border: none;
+    box-shadow: none;
+    font-size: 32px;
+    font-family: '微软雅黑';
+    background-color: transparent;
+}
+.VIPService .VIPService-Grid .VIPService-SubThumbnail h2 {
+    color: #fff;
+}

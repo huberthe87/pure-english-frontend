@@ -1,0 +1,18 @@
+.WeixinReserve {
+    margin-top: 100px;
+}
+.WeixinReserve .WeixinReserve-Thumbnail {
+    border: none;
+    box-shadow: none;
+    text-align: center;
+    font-size: 32px;
+    font-family: '微软雅黑';
+}
+.WeixinReserve .WeixinReserve-Grid-Thumbnail {
+    text-align: center;
+    border: none;
+    box-shadow: none;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 28px;
+}

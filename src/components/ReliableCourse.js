@@ -17,7 +17,8 @@ class ReliableCourse extends Component {
                                 <img className='head-portrait' src={ReliableCourseHeadPortrait1} alt=""/>
                             </Col>
                             <Col xs={8}>
-                                <img className='chat' src={ReliableCourseChatLeft} alt=""/>
+                                {/*<img className='chat' src={ReliableCourseChatLeft} alt=""/>*/}
+                                <div className='chat'></div>
                             </Col>
                         </Row>
                     </Grid>
