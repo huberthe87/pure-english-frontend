@@ -6,3 +6,24 @@
     position: static;
     margin: 50px 0 0;
 }
+.Footer-Grid {
+    width: 80%;
+    padding: 0;
+    margin: 0;
+}
+.Footer-Grid .row div {
+    margin: 0;
+    padding: 0;
+}
+.Footer-Thumbnail {
+    border: none;
+    box-shadow: none;
+}
+.Footer-Thumbnail img {
+    width: 50%;
+}
+.Footer-Thumbnail h3 {
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+}

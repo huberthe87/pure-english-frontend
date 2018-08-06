@@ -1,20 +1,36 @@
 .ReliableCourse {
+    margin-top: 100px;
+}
+.ReliableCourse .ReliableCourse-Thumbnail {
+    text-align: center;
+    border: none;
+    box-shadow: none;
+    font-size: 32px;
+    font-family: '微软雅黑';
+    color: rgb(0, 0, 0);
+}
+
+.ReliableCourse-Content {
     background: transparent url("../img/reliable-course-bg.png") no-repeat center center;
     background-size: cover;
     vertical-align: bottom;
     padding: 50px 0;
 }
-.ReliableCourse .head-portrait {
+
+.ReliableCourse-Content .head-portrait {
     width: 100%;
     height: 100%;
 }
-.ReliableCourse .chat {
+
+.ReliableCourse-Content .chat {
     width: 100%;
     height: 100%;
 }
-.ReliableCourse .ReliableCourse-left .chat {
+
+.ReliableCourse-Content .ReliableCourse-left .chat {
     padding-top: 20px;
 }
-.ReliableCourse .ReliableCourse-right {
+
+.ReliableCourse-Content .ReliableCourse-right {
     margin-top: 40px;
 }

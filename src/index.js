@@ -30,39 +30,6 @@ import ReliableCourseBg from './img/reliable-course-bg.png';
 
 import registerServiceWorker from './registerServiceWorker';
 
-const midTitleStyle = {
-    textAlign: 'center',
-    border: 'none',
-    boxShadow: 'none',
-    fontSize: '32px',
-    fontFamily: '微软雅黑',
-    fontcolor: 'rgb(0,0,0)',
-};
-const midTitleStyleInverse = {
-    textAlign: 'center',
-    border: 'none',
-    boxShadow: 'none',
-    fontSize: '32px',
-    fontFamily: '微软雅黑',
-    fontcolor: 'rgb(255,255,255)'
-};
-const smallTitleStyle = {
-    textAlign: 'center',
-    border: 'none',
-    boxShadow: 'none',
-    fontSize: '28px',
-    fontFamily: '微软雅黑',
-    fontcolor: 'rgb(0,0,0)'
-};
-const smallTitleStyleInverse = {
-    textAlign: 'center',
-    border: 'none',
-    boxShadow: 'none',
-    fontSize: '28px',
-    fontFamily: '微软雅黑',
-    fontcolor: 'rgb(0,0,0)'
-};
-
 ReactDOM.render(
     <div>
         <Navbar/>
@@ -73,10 +40,6 @@ ReactDOM.render(
         <GreatClass/>
         <VIPService/>
         <WeixinReserve/>
-
-        <Thumbnail src={ReliableCourseLogo} alt='ReliableCourse' style={midTitleStyle}>
-            <h2>精明家长信赖之选</h2>
-        </Thumbnail>
         <ReliableCourse/>
         <Footer/>
     </div>,
