@@ -22,7 +22,9 @@ class ReliableCourse extends Component {
                                     <img className='head-portrait' src={ReliableCourseHeadPortrait1} alt=""/>
                                 </Col>
                                 <Col xs={8}>
-                                    <img className='chat' src={ReliableCourseChatLeft} alt=""/>
+                                    <div className='chat'>
+                                        <p>孩子处于语言学习关键期，普尔英语让三四线城市孩子，接受到了最纯正的英语，很好！</p>
+                                    </div>
                                 </Col>
                             </Row>
                         </Grid>
@@ -31,7 +33,9 @@ class ReliableCourse extends Component {
                         <Grid>
                             <Row>
                                 <Col xs={8} xsOffset={1}>
-                                    <img className='chat' src={ReliableCourseChatRight} alt=""/>
+                                    <div className='chat'>
+                                        <p>儿子说，这是他上过的最有趣的英语课，现在上普尔英语课，成为他很期待的一件事！</p>
+                                    </div>
                                 </Col>
                                 <Col xs={2}>
                                     <img className='head-portrait' src={ReliableCourseHeadPortrait2} alt=""/>

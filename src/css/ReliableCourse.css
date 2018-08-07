@@ -23,14 +23,24 @@
 }
 
 .ReliableCourse-Content .chat {
-    width: 100%;
-    height: 100%;
+    height: 150px;
+    vertical-align: middle;
+    font-size: 24px;
+    color: #000;
+    font-family: '微软雅黑', serif sans-serif;
 }
 
 .ReliableCourse-Content .ReliableCourse-left .chat {
-    padding-top: 20px;
+    background: transparent url("../img/reliable-course-chat-left.png") no-repeat center center;
+    background-size: 100% 100%;
+    padding: 25px 15px 0;
 }
 
 .ReliableCourse-Content .ReliableCourse-right {
     margin-top: 40px;
+}
+.ReliableCourse-Content .ReliableCourse-right .chat {
+    background: transparent url("../img/reliable-course-chat-right.png") no-repeat center center;
+    background-size: 100% 100%;
+    padding: 60px 15px 0;
 }
