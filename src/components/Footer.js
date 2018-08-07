@@ -1,7 +1,9 @@
 import React, {Component} from 'react';
 import '../css/Footer.css'
-import {Col, Grid, Image, Row, Thumbnail} from "react-bootstrap";
+import {Col, Grid, Image, Row, Thumbnail, Media} from "react-bootstrap";
 import WechatLogo from '../img/wechat-logo.png';
+import FooterPhone from '../img/footer-phone.png';
+import WechatQrCode from '../img/footer-wechat.png';
 
 class Footer extends Component {
     render() {
@@ -9,18 +11,11 @@ class Footer extends Component {
             <div className='Footer'>
                 <Grid className="Footer-Grid">
                     <Row>
-                        <Col xs={1}>
-                            <Thumbnail src={WechatLogo} alt="Footer" className="Footer-Thumbnail">
-                                <h3>官方微信</h3>
-                            </Thumbnail>
+                        <Col xs={2} xsOffset={1}>
+                            <Image src={WechatQrCode} alt="WechatQrCode"/>
                         </Col>
-                        <Col xs={1}>
-                            <Thumbnail src={WechatLogo} alt="Footer" className="Footer-Thumbnail">
-                                <h3>官方微信</h3>
-                            </Thumbnail>
-                        </Col>
-                        <Col xs={6}>
-
+                        <Col xs={8} xsPush={1}>
+                            <Image src={FooterPhone} alt="PhoneNumber" className="Footer-PhoneNumber"/>
                         </Col>
                     </Row>
                 </Grid>

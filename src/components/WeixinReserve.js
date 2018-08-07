@@ -10,7 +10,7 @@ import '../css/WeixinReserve.css';
 class WeixinReserve extends Component {
     render() {
         return (
-            <div className="WeixinReserve">
+            <div className="WeixinReserve" id="WeixinReserve">
                 <Thumbnail src={WeixinReserveLogo} alt='WeChat Reservation' className="WeixinReserve-Thumbnail">
                     <h2>微信约课，随时上课</h2>
                 </Thumbnail>

@@ -7,7 +7,7 @@ import GreatTeacherPic from '../img/great-teacher.png';
 class GreatTeacher extends Component {
     render() {
         return (
-            <div className='GreatTheacher'>
+            <div className='GreatTheacher' id="GreatForeignTeacher">
                 <Thumbnail src={GreatTeacherLogo} alt='Great Teacher' className='GreatTheacher-thumbnail'>
                     <h2>严选欧美外教</h2>
                 </Thumbnail>

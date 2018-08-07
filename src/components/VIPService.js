@@ -13,25 +13,30 @@ class VIPService extends Component {
                 <Thumbnail src={VipServiceLogo} alt='VIP Service' className="VIPService-Thumbnail">
                     <h2>多位一体VIP跟踪服务</h2>
                 </Thumbnail>
-                <Grid className="VIPService-Grid">
-                    <Row>
-                        <Col xs={4}>
-                            <Thumbnail src={VIPServiceCustomer} alt='VIP Service' className="VIPService-SubThumbnail">
-                                <h2>多位一体VIP跟踪服务</h2>
-                            </Thumbnail>
-                        </Col>
-                        <Col xs={4}>
-                            <Thumbnail src={VIPServiceForeignTeacher} alt='VIP Service' className="VIPService-SubThumbnail">
-                                <h2>多位一体VIP跟踪服务</h2>
-                            </Thumbnail>
-                        </Col>
-                        <Col xs={4}>
-                            <Thumbnail src={VIPServiceChinaTeacher} alt='VIP Service' className="VIPService-SubThumbnail">
-                                <h2>多位一体VIP跟踪服务</h2>
-                            </Thumbnail>
-                        </Col>
-                    </Row>
-                </Grid>
+                <div className="VIPService-Content">
+                    <Grid className="VIPService-Grid">
+                        <Row>
+                            <Col xs={4}>
+                                <Thumbnail src={VIPServiceCustomer} alt='VIP Service'
+                                           className="VIPService-SubThumbnail">
+                                    <h2>多位一体VIP跟踪服务</h2>
+                                </Thumbnail>
+                            </Col>
+                            <Col xs={4}>
+                                <Thumbnail src={VIPServiceForeignTeacher} alt='VIP Service'
+                                           className="VIPService-SubThumbnail">
+                                    <h2>多位一体VIP跟踪服务</h2>
+                                </Thumbnail>
+                            </Col>
+                            <Col xs={4}>
+                                <Thumbnail src={VIPServiceChinaTeacher} alt='VIP Service'
+                                           className="VIPService-SubThumbnail">
+                                    <h2>多位一体VIP跟踪服务</h2>
+                                </Thumbnail>
+                            </Col>
+                        </Row>
+                    </Grid>
+                </div>
             </div>
         );
     }

@@ -7,7 +7,7 @@ import GreatClassSystem from "../img/great-class-system.png";
 class GreatClass extends Component {
     render() {
         return (
-            <div className="GreatClass">
+            <div className="GreatClass" id="GreatClass">
                 <Thumbnail src={GreatClassSystemLogo} alt='Great Class System' className="GreatClass-Thumbnail">
                     <h2>科学分级课程体系</h2>
                 </Thumbnail>

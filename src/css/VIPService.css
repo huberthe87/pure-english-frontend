@@ -1,5 +1,5 @@
 .VIPService {
-    margin-top: 100px;
+    padding-top: 100px;
 }
 .VIPService .VIPService-Thumbnail {
     text-align: center;
@@ -8,7 +8,7 @@
     font-size: 32px;
     font-family: '微软雅黑';
 }
-.VIPService .VIPService-Grid {
+.VIPService .VIPService-Content {
     background: transparent url("../img/vip-service-bg.png") no-repeat center center;
     background-size: 100% 100%;
     padding: 150px 0 100px;

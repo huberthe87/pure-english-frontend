@@ -1,0 +1,38 @@
+.HomeNavbar {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 0 auto;
+    height: 70px;
+    width: 88%;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background: transparent url("../img/navbar-background.png") no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+    border: none;
+    box-shadow: none;
+}
+.HomeNavbar-Brand {
+    margin-left: 100px !important;
+}
+
+.HomeNavbar-Brand-Link {
+    display: inline-block;
+    height: 70px;
+    width: 100px;
+    background: transparent url("../img/logo.png") no-repeat center center;
+    background-size: contain;
+    transform: scale(1.6);
+}
+.HomeNavbar-Nav {
+    margin-right: 100px;
+    margin-top: 8px;
+}
+.HomeNavbar-Nav a, .HomeNavbar-Nav a:visited {
+    font-family: "微软雅黑";
+    font-size: 28px;
+    color: rgb(255,0,0) !important;
+}
